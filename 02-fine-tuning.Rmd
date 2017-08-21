@@ -1,1 +1,7 @@
 # Fine Tuning
+
+While the main concept of photosynthesis is always the same in all plant; any of its physiological and biochemical component is finely tuned and adapted to specific environmental condition.
+
+In this article I will explain why photosynthesis is adapted and optimized, why we are interested in this and I will give you small details of how we are studying it.
+
+To explain this I will use the similarity of an engine and a factory. I know that comparing photosynthesis to an engine does convey the wonder that we feel when we observe living organisms. But for our purposes, this similarity works ridicolously well.
