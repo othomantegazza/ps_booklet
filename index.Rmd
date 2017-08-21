@@ -1,0 +1,13 @@
+---
+title: "What the plant does?"
+subtitle: "a story of photosynthesis and transcriptomes"
+author: "Otho Mantegazza"
+date: "`r Sys.Date()`"
+output: bookdown::gitbook
+documentclass: book
+description: "A Planter's Punch that quickly got out of hand"
+---
+
+# Preface {-}
+
+Something abut plants
