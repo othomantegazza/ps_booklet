@@ -1,0 +1,9 @@
+# Two ~~Drastic~~ Curious Variations
+
+Virtually every plant adapts photosynthesis to its needs, but two groups of plant perform drastic changes to the photosynthetic apparatus. Those plants are known as C4 and CAM and they both adapt to warm and dry weather, photosynthesis worst nightmare.
+
+Without going into unfriendly details on why photosynthesis does not work well in extremely hot weather, the details might be less intuitive than you think, C4 and CAM plants invented rather imaginative ways to boost photosyntheis in heath. Known C4 plants are Maize, Sugar Cane, Millet and known CAM plants are all the succulent plants, such as Agave, Aloe and the funny looking Opuntia.
+
+C4 plant boost photosynthesis buy building a true molecular pump that concentrate carbon dioxyde inside the leaves, so that this can be more easily converted into carbohydrate, CAM plants temporarely store carbon and energy during the day and only produce carbohydrates at night.
+
+We are interested in C4 plants (and also in CAM (and in any other)).
