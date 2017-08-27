@@ -1,0 +1,54 @@
+# Fragments of Projects
+
+So, we are analyzing the leaf cells transcriptome to learn how photosynthesis is fine tuned.
+
+But I would like to discuss a technical detail with you on how we do it. When we analyze a transcriptome, we extract all the transcript from the leaf and read (technically "sequence") them. But the best way to do this today is to fragment the transcripts first.
+
+So, going back to the factory, we have extracted from the factory a all the copies of the projects that are distributed to the workers. Because of a small technical details, this projects are tear to pieces before we read them. Then we sample the pieces, read them, and use the genome (the main project), or overlapping parts in the pieces to read them and reassemble them. The number of the pieces that belong to one project will be an estimate of the copies of that project that were distributed to the worker.
+
+So, one thing that we do when we analyze transcriptomes is
+
+1. extract  transcripts from the cells,
+2. read small fragments out of them,
+3. find out from which gene the transcripts are generated,
+4. use statistics to estimate how many transcripts form that genes where in the cell.
+
+In this way we find out what cells are doing.
+
+## Transcriptomics in practice
+
+Transcripts are different from projects as we know them, they are more similar to DNA. Transcripts are best represented as long linear strings of text, containing exclusively the four characters that we use to represent the four letter that by convention we use to represent the four components of DNA: A, T, C and G
+
+So, for example, this is how we represent the transcript of the gene that encode for one of the main components of RUBISCO, the main photosynthetic enzyme in all plants.
+
+```
+> remember to change this
+ATATATATATATATATATAATATAACGACATGACAGTA
+```
+This is taken from *Arabidopsis thaliana*, a smal plant that we scientists love. Note that the line breaks are placed arbitrarily to fit it in the page, like text, this is one long sequence.
+
+We generally do not read this from the plants, but many short fragments of 50 - 200 characters.
+
+```
+> fragment 1
+ATATACCGCAGTTGGACAGTGAGATGTA
+
+> fragment 2
+TGATCAGACTACGTACTGACCATACTCA
+
+.
+.
+.
+
+> fragment n
+ACTAGCTAGCATAGTCAGCATACGAATGC
+```
+And we have algorithms to assemble them on genes (figure out from which project they come from), count them and estimate how many transcripts were floating around the cell at a given moment.
+
+In the end it might look like this.
+
+```
+here image of assembled transcripts
+```
+
+Analysing transcripts we learn what a cell is doing at a given time.
