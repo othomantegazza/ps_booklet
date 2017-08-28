@@ -51,4 +51,4 @@ In the end it might look like this.
 here image of assembled transcripts
 ```
 
-Analysing transcripts we learn what a cell is doing at a given time.
+By analysing transcripts we learn what a cell is doing at a given time.

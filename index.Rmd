@@ -10,4 +10,4 @@ description: "A Planter's Punch that quickly got out of hand"
 
 # Preface {-}
 
-Something abut plants
+Something about plants

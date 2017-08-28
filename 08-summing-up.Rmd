@@ -1,0 +1,25 @@
+# Summing Up
+
+So hereby I let you peek into a small part of what is photosynthesis and into one of the methods that we use for studying it.
+
+You might have still many questions:
+
+- What photosynthesis actually do exactly? How?
+- Which living organism do photosynthesis?
+- I can't believe that your methods are limited to transcriptomic analysis? What else can you do to study photosynthesis?
+- I could read the sequence of a transcript, but I did not understand exactly what was written in it. How can you understand what is written in a gene or in a transcript? How can you decode this kind of information?
+- So, living organisms are like factory? Or not?
+
+To the question what else can you do, the answer is: much more. I will not answer to the other questions here. I hope that I interested you to the topic and, in case, you are welcome further explore molecular genetics and photosynthesis yourself.
+
+You might find these resources helpful:
+
+```
+online resources?
+```
+
+Together we had a glimpse of photosinthesis, a phantastic molecular machinery.
+
+We also have learned about how much photosynthesis and other molecular machinery in the cell depend on genetic information. We have also learned a little bit about how we can access genetic information through transcritomic.
+
+I hope that this 
