@@ -11,15 +11,18 @@ cover-image: images/garbes_pinol.png
 
 # Preface {-}
 
+
 ```{r, echo = FALSE}
 knitr::include_graphics("images/garbes_pinol.png")
 ```
 
 
-Plants collect energy from sunlight and use it to produce fruits, that we eat, fibers, that we wear, and much more in a process called photosynthesis.
+Plants collect energy from sunlight and use it to produce fruits, that we eat, fibers, that we wear, and much, much more, in a process called photosynthesis.
 
-This process is fundamental for our life on Earth, and scientists have come a long way to study it. We scientists at CEPLAS are also contributing.
+This process is fundamental for our life on Earth, and it has been [intensively studied for centuries](https://en.wikipedia.org/wiki/Photosynthesis#Discovery) by scientists. We, scientists at [CEPLAS](http://ceplas.eu) are also contributing.
 
-Here I'll give you a glimpse into photosynthesis research: what we do, why we do it. I'll explain to you one detail of photosynthesis and one method that we are using for investigating it. The method is called transcriptomic analysis and we are investigating a special adaptation of photosynthesis for warm and dry weather.
+Here I'll give you a glimpse into scientific research on photosynthesis. After a very short introduction to photsynthesis, I'll explain to you one detail of photosynthesis and one method that we are using to investigate it. 
+
+The method is called transcriptomic analysis and we are using it to investigate a special adaptation of photosynthesis for warm and dry weather.
 
 

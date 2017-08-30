@@ -5,3 +5,10 @@ While the main concept of photosynthesis is always the same in all plant; any of
 In this article I will explain why photosynthesis is adapted and optimized, why we are interested in this and I will give you small details of how we are studying it.
 
 To explain this I will use the similarity of an engine and a factory. I know that comparing photosynthesis to an engine does convey the wonder that we feel when we observe living organisms. But for our purposes, this similarity works ridicolously well.
+
+--
+
+any different kind of plants adapts photosynthesis with small tuning and modification to the set of environmental conditions that it is more likely to encounter: the ones under which it evolved. Those environments could be, for example, arid cold or arid warm, wet rain forest, underbrush etc..
+
+
+We study fine adaptation of photosynthesis for a simple reason: crop plants are often grown in environments that are different from the one in which they evolved. If we understood how crop plants adapted to their old environments we would know how they could adapt to new growing conditions. Optimization of photosynthesis is considered a path toward growing healthy crop plants with ess water and less fertilizers.

@@ -1,66 +1,17 @@
 # Solar Powered Wonders
 
-Plants produce food and fibers (carbohydrates) from carbon dioxide and water using photosynthesis.  This marvelous process is called photosynthesis, and, as the name suggests, it is powered by (Sun)light.
+Plants are solar powered wonders. They harvest energy from (Sun)light, carbon dioxide from the air, water from the ground and use them to produce food and fibers (carbohydrates) in a process named photosynthesis.
+
+Photosynthesis can be described by this simple chemical reaction:
 
 ```
-CO2 + H2O --sunlight--> C6H12O6 + O2
-
-or better
-
 carbon dioxide + water --sunlight--> carbohydrates + oxygen
 ```
 
-Although photosynthesis can be described with a very simple equation, it is a complex biochemical process that is active in an environment specifically designed (ehm, evolved) to host it: the plant leaf.
+Which indeed might help you conceptualize photosyntheisis. But this reaction does not illustrate what a complex and sophisticated process photosynthesis actually is. Photosynthesis is an intricated biochemical process that requires coordination of hundreds of biochemical reaction in an environment specifically designed (ehm, evolved) to host them: the plant leaf ^[Actually, this is imprecise. For our aim we will restrict our attention to the plant leaf, but photosynthesis is not limited to leaves and does not depend on them. A big portion of photosynthetic activity on Earth is carried out by algae and bacteria.].
 
-Photosynthesis involves:
+The plant leaves intercept sunlight, manage gas exchange between the plant and the environment and bring water and nutrients to the photosynthetic apparatus. The full photosynthetic apparatus, or many of them, resides inside the leaf cells. Every cell is capable to run photosynthesis rather autonomously, which means that it can that build all the component necessary to run the photosynthetic machinery and coordinate them.
 
-- a series of incredibly complicated biochemical rections,
-- very sophisticated leaf physiology.
+You will forgive me if I do not explain in detail the component of the photosynthetic machinery or its functioning. In brief, this components intercept light and use it to oxydize water and to build electrochemical potential that will be used fuel another series of biochemical reaction that turn carbon dioxyde into sugar. **where do they explain details of photosynthesis.**
 
-Process
-
-1. define leaf structure suitable for hosting photosynthesis and build the leaf,
-1. build and establish the parts of the main photosynthetic machinery in the correct positions inside the leaf cells,
-1. let carbon dioxide into the leaves, managing water losses,
-1. harvesting sunlight at very different intensity (daily, seasonal, weather induced)
-1. use the harvested sunlight to convert carbon dioxide into carbohydrates,
-1. (redistribute products, get read of byproducts)
-
-
-All those steps could slightly modified and finely tuned.
-
-Therefore, the main concept and the main equation of photosynthesis are the same in all plants, but any different kind of plants adapts photosynthesis with small tuning and modification to the set of environmental conditions that it is more likely to encounter: the ones under which it evolved. Those environments could be, for example, arid cold or arid warm, wet rain forest, underbrush etc..
-
-We are particularly interested in this fine tuning.
-
-We study fine adaptation of photosynthesis for a simple reason: crop plants are often grown in environments that are different from the one in which they evolved. If we understood how crop plants adapted to their old environments we would know how they could adapt to new growing conditions. Optimization of photosynthesis is considered a path toward growing healthy crop plants with ess water and less fertilizers.
-
-```
-cutoffs:
-
-Therefore, the main concept of photosynthesis is the same in all plants, but any different kind of plants adapts it with small tuning and modification to the set of environmental conditions that it is more likely to encounter: the ones under which it evolved.
-
- Their photosynthetic processes could be tuned to the new environment, but we have to understand how this adaptation worked in evolutionary times.
-
- If we would understand precious details of this fine adaptation, we could hope to grow healthy crops with less water and less fertilizers.
-
- Photosynthesis can be studied with different methods, many of those are complementary to each other, some are complicated and unintuitive.
-
- # Factories and Photosynthesis
-
- ```
- convey wonder
- ```
-
- Plants produce food and fibers  (carbohydrates) from carbon dioxide and water using photosynthesis, a marvelous Sun powered process. Every kind of plant also finely tunes photosynthesis and adapts it to specific environments, such as arid cold or arid warm, wet rain forest, underbrush etc..
-
- We study fine adaptation of photosynthesis for a simple reason: crop plants are often grown in environments that are different from the one in which they evolved. If we understood how crop plants adapted to their old environments we would know how they could adapt to new growing conditions. Optimization of photosynthesis is considered a path toward growing healthy crop plants with ess water and less fertilizers.
-
- How do we study what the plant does? One of the main methods that we use is called transcriptomic analysis. This genomic method was established around ten years ago and became immediately popular and successful get a glimpse of which genetic information is used by an organism at any given moment. Transcriptomic analysis is not restricted to photosynthetic study nor to plants, it is applied to any kind of biological problem.
-
- To introduce you to transcriptomic analysis and how we use it on photosynthesis I will use an analogy, comparing the plant cell to a factory and photosynthesis to an engine produced in this factory. I know that this is a bland similarity, and that a factory, no matter how well a factory is built and run, it will hardly reproduce the wonder that we feel when we observe a living organism. Nevertheless this similarity is remarkably functional, and will help our purpose of understanding photosynthesis and transcriptomes.
-
- How do we peek into the genetic information that the plant is using at a given moment and how do we get and idea of what the plant is doing.
-
- convey wonder
-```
+Besides chatching a glimpse of the complexity of phothosynthesis, we are mainly interested in another of its aspect: The main concept of photosynthesis and most of its component are the same in all plants, but, but every plant species contains different small modifications that adapt and finely tunes these components to its need. And it is this fine tuning that we are going to investigate in detail.
