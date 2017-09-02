@@ -1,4 +1,4 @@
-# Fine Tuning
+# Fine Adaptation
 
 While the main concept of photosynthesis is always the same in all plant; any of its physiological and biochemical component is finely tuned and adapted to specific environmental condition.
 
