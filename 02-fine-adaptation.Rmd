@@ -2,19 +2,25 @@
 
 While the main aspects of photosynthesis are the same in all plants, every plant adapts its leaves and its photosynthetic apparatus to specific environmental conditions.
 
-The leaves of every plant are exposed and provide limited protection from the surrounding environment. If the surrounding environment changes, photosynthesis must be adapted. For example sunlight intensity changes regularly and cycles throughout the day and the year. Wind, temperature, humidity also change, sometimes in an unexpected way, but most of the time those changes are expected and can be easily predicted. Atmospheric condition cycle throughout the day, plants must be ready and adapt their photosynthetic apparatus dynamically to meet those conditions.
+The photosynthetic machinery is inside the leaf cells. The leaf structure protects the photosynthetic machinery from the surrounding environment, but this protection is limited. Since the photosynthetic machinery collects energy from sunlight, it must be exposed to the Sun and cannot be shaded. Also, since this machinery must collect carbon dioxyde from the air, it cannot be fully protected from wind and dry weather. Some component of the machinery arey also sensitive to temperature changes.
+
+Sunlight intensity changes regularly and cycles throughout the day and the year. Wind, temperature, humidity also change, sometimes in an unexpected way. But most of the time those changes are expected and can be easily predicted. The range of atmospheric condition that we experience is generally defined by the climate area in which are situated. This climates area could be, for example, mediterranean, tropical, continental, subartic etc.
 
 ```
 here a panel on cycling environmental condition
 ```
 
-There is another layer of complexity: environmental conditions change, but every geographical area has a typical climate, a range atmospheric conditions that are expected throughout the year. Examples of climates are tropical, mediterranean, subartic etc. To thrive, a plant must be stably adapted to one climate region, the one in which evolved. The typical challenges that one climate poses to photosynthesis are different from the ones of other climates.
+To thrive succesfully plants must manage two different and connected aspects of adaptation:
 
-![Climate area](https://upload.wikimedia.org/wikipedia/commons/d/df/ClimateMap_World.png)
+- Every plant must adapt its leaves and photosynthetic machinery dynamically to ever changing sunlight intensity, air temperature and humidity during the day.
 
-So there are two levels of adaptation. Photosynthesis must be dynamically adapted to ever changing atmospheric conditions, but at the same time, photosynthesis must be also stably adapted and tuned toward the challenges of a certain climate, the one in which that plant species evolved. It is about stable adaptation of photosynthesis that we are interested.
+- Every plant species must adapt and finely tune its photosynthetic components stably to have them performing best at the range of environmental condition that it is likely to encounter. Namely the climate or microclimate under which that species evolved.
 
-We study fine stable adaptation of photosynthesis for a simple reason: crop plants are often grown in environments and regions that are different from the one in which they evolved. If we understood how crop plants adapted to their old environments we would know how they could adapt to new growing conditions. Optimization of photosynthesis is considered a path toward growing healthy crop plants with less water and less fertilizers.
+![Panel on Climate Area](https://upload.wikimedia.org/wikipedia/commons/d/df/ClimateMap_World.png)
+
+We are studying the second kind of adaptation, that causes every plant species to evolve small modification to its photosynthetic machinery in order to perform best in a defined range of sunlight intensity, temperature and humidity.
+
+We study fine stable adaptation of photosynthesis for a simple reason: crop plants are often grown in environments and regions that are different from the one in which they evolved. If we understood how crop plants adapted to their old environments we would know how they could adapt to new growing conditions. Adaptation and optimization of photosynthesis is considered a path toward growing healthy crop plants with less water and less fertilizers.
 
 To explain this I will use the similarity of an engine and a factory. I know that comparing photosynthesis to an engine does convey the wonder that we feel when we observe living organisms. But for our purposes, this similarity works ridicolously well.
 
