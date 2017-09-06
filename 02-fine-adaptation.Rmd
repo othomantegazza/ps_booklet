@@ -6,12 +6,7 @@ The photosynthetic machinery is inside the leaf cells. The leaf structure protec
 
 Sunlight intensity changes regularly and cycles throughout the day and the year. Wind, temperature, humidity also change, sometimes in an unexpected way. But most of the time those changes are expected and can be easily predicted. The range of atmospheric condition that we experience is generally defined by the climate area in which are situated. This climates area could be, for example, mediterranean, tropical, continental, subartic etc.
 
-```
-here a panel on cycling environmental condition
-maybe with data from here http://www.ecad.eu/dailydata/predefinedseries.php
-```
-
-```{r, echo = FALSE, message=FALSE, results='hide', fig.height=8, fig.cap="Environmental condition variate widely in Düsseldorf, as everywhere. [data from http://www.ecad.eu]"}
+```{r, echo = FALSE, message=FALSE, results='hide', fig.height=7, fig.cap="Variation of environmental conditions in 2016 in Düsseldorf. [data from http://www.ecad.eu]"}
 # Data from http://www.ecad.eu/dailydata/predefinedseries.php
 # http://www.ecad.eu/utils/downloadfile.php?file=download/ECA_blend_ss.zip
 # http://www.ecad.eu/utils/downloadfile.php?file=download/ECA_blend_tg.zip
@@ -57,65 +52,35 @@ dat$variable <- factor(dat$variable, labels = c("Sun Hours [h]",
                                                 "Daily Mean Temperature [°C]"))
 
 
-ggplot2::ggplot(dat, ggplot2::aes(x = Date, y = value)) + 
-    ggplot2::geom_line(col = "grey") + 
+ggplot2::ggplot(dat, ggplot2::aes(x = Date, y = value)) +
+    ggplot2::geom_line(col = "grey") +
     ggplot2::stat_smooth(span = 0.25) +
     ggplot2::facet_grid(variable ~ .,
                         scales = "free_y",
                         labeller = ggplot2::label_value,
                         switch = "y") +
+    ggplot2::ylab(label = "") +
     ggplot2::theme_bw()
 
 ```
 
 
-To thrive succesfully plants must manage two different and connected aspects of adaptation:
+To thrive, a plant must manage two different and connected aspects of adaptation:
 
 - Every plant must adapt its leaves and photosynthetic machinery dynamically to ever changing sunlight intensity, air temperature and humidity during the day.
 
 - Every plant species must adapt and finely tune its photosynthetic components stably to have them performing best at the range of environmental condition that it is likely to encounter. Namely the climate or microclimate under which that species evolved.
 
-![Panel on Climate Area](https://upload.wikimedia.org/wikipedia/commons/d/df/ClimateMap_World.png)
+```{r, echo = FALSE, fig.cap = "World climate area. Source: [Wikipedia](https://en.wikipedia.org/wiki/Climate#/media/File:ClimateMap_World.png)"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/d/df/ClimateMap_World.png")
+```
 
 We are studying the second kind of adaptation, that causes every plant species to evolve small modification to its photosynthetic machinery in order to perform best in a defined range of sunlight intensity, temperature and humidity.
 
-We study fine stable adaptation of photosynthesis for a simple reason: crop plants are often grown in environments and regions that are different from the one in which they evolved. If we understood how crop plants adapted to their old environments we would know how they could adapt to new growing conditions. Adaptation and optimization of photosynthesis is considered a path toward growing healthy crop plants with less water and less fertilizers.
+We study fine stable adaptation of photosynthesis for a simple reason: crop plants are often grown in environments and regions that are different from the one in which they evolved. If we understood how crop plants adapted to their original environments we would know how they could adapt and grow successfully in a new environment and under new condition. Adaptation and optimization of photosynthesis is considered a path toward growing healthy crop plants with less water and less fertilizers.
 
-To explain this I will use the similarity of an engine and a factory. I know that comparing photosynthesis to an engine does convey the wonder that we feel when we observe living organisms. But for our purposes, this similarity works ridicolously well.
+To understand adaptation, let's imagine photosynthesis as a combustion engine (it is not, or if possible photosynthesis is the opposite of a combustion engine, whatever an engine "burns", photosynthesis "unburns". Our combustion engines today burn very recent and very old products of photosynthesis. Besides comparing photosynthesis to an engine is reductive and it does not convey the wonder that we feel when we observe living organisms).
 
+Anyway, let's imagine photosynthesis as a combustion engine. There are many combustion engines, the main concept is similar for all the engines, but every type of combustion engine is adapted and tuned for a specific purpose. You would not move an F1 car engine in a city car, a city car engine in a truck and a truck engine in an F1 car, none of those combination looks like a good idea. And it is too easy to say that one of those engine is better than the others, for example the F1 engine, every type combustion engine is adapted for a specific purpose and for specific conditions.
 
-
-## Photosynthesis Like an Engine
-
-No, it is not. Actually photosynthesis is the exact opposite of an engine. Where an engine burns, photosynthesis unburns. Our combustion engines today burn very recent or very old products of photosynthesis.
-
-But as an engine converts some form of energy into another, with a very rigorous process and a very standard set of parts, so does photosynthesis.
-
-### Similarities
-
-So, for example, as a combustion engine has a core concept involving:
-
-- a specific chemical reaction that releases heat (CH + O2 --> CO2 + H2O),
-- A tank to store the fuel,
-- a carburator and cylinders in which the fuel is burnt
-- a crankshaft that converts the up and down motion from the pistons into rotational motion.
-
-So photosynthesis has:
-
-- a specifical chemical reaction that is powered by light (CO2 + H2O --> CH2O + O2) ... noticed the similarity?
-- An antenna structure that harvest the sunlight (that contains the green clorophyll, when you look around and see something green you are probably looking at this),
-- An energy transfer cascade from light to potential energy stored in molecules that culminates with the production of sugar.
-
-And as a combustion engine, photosynthesis has many modifications and adaptations that can be done to this simple structure.
-
-### Implementation of the concept
-
-There are many combustion engine and even if some of them sound "better" than others, they are often build with a specific purpose and hardly interchangeable. Even if an F1 engine sounds better than a small city car engine. Though you would not move an F1 engine in a city car, a city car engine in a truck and a truck engine in an F1 car. None of the possible combination seems good.
-
-So does photsynthesis. There are many photosynthesis, some sounds better than other. But indeed, in every plant, photosynthesis is optimized for the environmental conditions that that plant met during evolution and that it is likely to meet in the future. You would not move a model of photosynthesis from one plant to the other... Or would we?
-
-Components of photosynthesis are adapted to the climate and the environment in which that plant evolved, and we could hardly do a better job then evolution. Those conditions include temperature, direct Sun exposure or underbrush, humid or dry weather, windy regions etc.
-
-But most crops plant are cultivated in condition that are not exactly the ones in which they evolved. We could something by learning to fine tune photosynthesis in crops. And gain something means producing food with less water and less fertilizers.
-
-As we know how to adapt engines to various task, could we do the same with photosynthesis?
+So does photosynthesis. There are many adaptations photosynthesis. Photosynthesis is optimized in every plant species for the environmental conditions that that plant met during evolution and that it is likely to meet in the future. You would not move a model of photosynthesis from one plant species to the other... Or would we?
