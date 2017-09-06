@@ -8,7 +8,66 @@ Sunlight intensity changes regularly and cycles throughout the day and the year.
 
 ```
 here a panel on cycling environmental condition
+maybe with data from here http://www.ecad.eu/dailydata/predefinedseries.php
 ```
+
+```{r, echo = FALSE, message=FALSE, results='hide', fig.height=8, fig.cap="Environmental condition variate widely in Düsseldorf, as everywhere. [data from http://www.ecad.eu]"}
+# Data from http://www.ecad.eu/dailydata/predefinedseries.php
+# http://www.ecad.eu/utils/downloadfile.php?file=download/ECA_blend_ss.zip
+# http://www.ecad.eu/utils/downloadfile.php?file=download/ECA_blend_tg.zip
+# http://www.ecad.eu/utils/downloadfile.php?file=download/ECA_blend_fg.zip
+# Dusseldorf station: 479
+
+read_weather <- function(path) {readr::read_csv(path, skip = 20)}
+
+## Sun hours
+dat_sun <- read_weather("data/SS_STAID000479.txt")
+dat_sun$SS <- dat_sun$SS * 0.1 ## Sun hours are provided in hours * 10
+
+## Daily Mean Temperature
+dat_temp <- read_weather("data/TG_STAID000479.txt")
+dat_temp$TG <- dat_temp$TG * 0.1 ## Temperatures are provided in °C * 10
+
+## Daily Mean Wind Speed
+dat_wind <- read_weather("data/FG_STAID000479.txt")
+dat_wind$FG <- dat_wind$FG * 0.1 ## Wind speed is provided in m/s * 10
+
+
+dat <- list(sun = dat_sun, wind = dat_wind, temp = dat_temp)
+
+## Keep only data for 2016, otherwise plot gets too complicated
+dat <- lapply(dat, function(i) {
+    i$DATE <- as.POSIXct(strptime(i$DATE, "%Y%m%d"))
+    dat_out <- i[lubridate::year(i$DATE) == 2016, ]
+    return(dat_out)
+})
+
+dat <- do.call(cbind, dat)
+
+identical(dat$sun.DATE, dat$wind.DATE)
+identical(dat$sun.DATE, dat$temp.DATE)
+
+dat <- dplyr::select(dat, sun.DATE, sun.SS, wind.FG, temp.TG)
+colnames(dat) <- c("Date", "sun_hours", "mean_wind_speed", "mean_temp")
+dat <- reshape2::melt(data = dat,
+                      id.vars = "Date",
+                      measure.vars = c("sun_hours", "mean_wind_speed", "mean_temp"))
+dat$variable <- factor(dat$variable, labels = c("Sun Hours [h]",
+                                                "Daily Average Wind Speed [m/s]",
+                                                "Daily Mean Temperature [°C]"))
+
+
+ggplot2::ggplot(dat, ggplot2::aes(x = Date, y = value)) + 
+    ggplot2::geom_line(col = "grey") + 
+    ggplot2::stat_smooth(span = 0.25) +
+    ggplot2::facet_grid(variable ~ .,
+                        scales = "free_y",
+                        labeller = ggplot2::label_value,
+                        switch = "y") +
+    ggplot2::theme_bw()
+
+```
+
 
 To thrive succesfully plants must manage two different and connected aspects of adaptation:
 
