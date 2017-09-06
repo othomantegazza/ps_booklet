@@ -3,7 +3,10 @@ title: "What the plant does?"
 subtitle: "A story of photosynthesis and transcriptomes"
 author: "Otho Mantegazza"
 date: "`r Sys.Date()`"
-output: bookdown::gitbook
+knit: "bookdown::render_book"
+output: 
+  bookdown::gitbook:
+    css: css/style.css
 documentclass: book
 description: "A Planter's Punch that quickly got out of hand"
 cover-image: images/garbes_pinol.png
