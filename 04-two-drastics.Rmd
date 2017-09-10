@@ -1,9 +1,21 @@
-# Two ~~Drastic~~ Curious Variations
+# Two Drastic Adaptations
 
-Virtually every plant adapts photosynthesis to its needs, but two groups of plant perform drastic changes to the photosynthetic apparatus. Those plants are known as C4 and CAM and they both adapt to warm and dry weather, photosynthesis worst nightmare.
+Every plant species adapts photosynthesis to its needs with small modification to the photosynthetic machinery. But two drastic adaptation of the photosynthetic machinery are also known and they have been evolved by two groups of plants species. Those plants are known as C4 and CAM and they are adapted to grow and thrive in hot and dry weather.
 
-Without going into unfriendly details on why photosynthesis does not work well in extremely hot weather, the details might be less intuitive than you think, C4 and CAM plants invented rather imaginative ways to boost photosyntheis in heath. Known C4 plants are Maize, Sugar Cane, Millet and known CAM plants are all the succulent plants, such as Agave, Aloe and the funny looking Opuntia.
+Hot and dry weather is very hostile to photosynthesis, the reason why is technical and not at as intuitive as it might look.
 
-C4 plant boost photosynthesis buy building a true molecular pump that concentrate carbon dioxyde inside the leaves, so that this can be more easily converted into carbohydrate, CAM plants temporarely store carbon and energy during the day and only produce carbohydrates at night.
+Everything starts with [Rubisco](https://en.wikipedia.org/wiki/RuBisCO): the enzyme that in photosynthesis grabs carbon dioxide from the environment and incorporates it into sugars. Unfortunately, Rubisco is prone to mistake oxygen for carbon dioxide. [When Rubisco incorporate oxygen instead of carbon dioxide into sugars](https://en.wikipedia.org/wiki/Photorespiration) it uses energy to produce waste and useless molecules that must be recycled spending additional energy. The hotter the weather, the more Rubisco mistakes oxygen for carbon dioxide. In most plants the losses caused by these mistakes neutralize the gains from photosynthesis in temperatures as low as 30°, making photosynthesis almost useless in hot weather.
 
-We are interested in C4 plants (and also in CAM (and in any other)).
+```
+here some images of rubisco and photorespiration
+```
+
+C4 and CAM plants, have invented rather imaginative ways to boost photosynthesis in hot weather. Examples of [C4 plants](https://en.wikipedia.org/wiki/C4_carbon_fixation) are Maize, Sugar Cane, Millet; known [CAM plants](https://en.wikipedia.org/wiki/Crassulacean_acid_metabolism) are all the succulent plants, such as Pineapple, Agave, Aloe and the funny looking Opuntia.
+
+```
+panel with C4 and CAM plants
+```
+
+C4 plant boost photosynthesis by building a true molecular pump that concentrate carbon dioxide inside the inner layers of the leaf, so that this can be more easily converted into carbohydrate. CAM plants, instead, open pores and assimilate carbon dioxide from the atmosphere only at night, a strategy that at once also allows to control water losses.
+
+Both solutions are clever and complicated. How can we study them? How can we understand exactly what the plant does when it uses those kinds of photosynthesis? We can look at the microscope and check anatomical changes in the leaves, we can measure gas exchange between the leaf and the atmosphere, we can grow a plant in different condition, at different temperatures, with different concentration of carbon dioxide in the air, in dry or wet environment, under different light intensities, and see how fast the plant grows. But when we want to know the details of the components of the molecular machineries that constitute photosynthesis, things get very small, and complicated. At this point, it comes in handy molecular genetics.
