@@ -2,9 +2,9 @@
 
 While the main aspects of photosynthesis are the same in all plants, every plant adapts its leaves and its photosynthetic apparatus to specific environmental conditions.
 
-The photosynthetic machinery is inside the leaf cells. The leaf structure protects the photosynthetic machinery from the surrounding environment, but this protection is limited. Since the photosynthetic machinery collects energy from sunlight, it must be exposed to the Sun and cannot be shaded. Also, since this machinery must collect carbon dioxyde from the air, it cannot be fully protected from wind and dry weather. Some component of the machinery arey also sensitive to temperature changes.
+The photosynthetic machinery is inside the leaf cells. The leaf structure protects the photosynthetic machinery from the surrounding environment, but this protection is limited. Since the photosynthetic machinery collects energy from sunlight, it must be exposed to the Sun and cannot be shaded. Also, since this machinery must collect carbon dioxide from the air, it cannot be fully protected from wind and dry weather. Some component of the machinery are also sensitive to temperature changes.
 
-Sunlight intensity changes regularly and cycles throughout the day and the year. Wind, temperature, humidity also change, sometimes in an unexpected way. But most of the time those changes are expected and can be easily predicted. The range of atmospheric condition that we experience is generally defined by the climate area in which are situated. This climates area could be, for example, mediterranean, tropical, continental, subartic etc.
+Sunlight intensity changes regularly and cycles throughout the day and the year. Wind, temperature, humidity also change, sometimes in an unexpected way. But most of the time those changes are expected and can be easily predicted. The range of atmospheric condition that we experience is generally defined by the climate area in which are situated. This climates area could be, for example, mediterranean, tropical, continental, subarctic etc.
 
 ```{r, echo = FALSE, message=FALSE, results='hide', fig.height=7, fig.cap="Variation of environmental conditions in 2016 in Düsseldorf. [data from http://www.ecad.eu]"}
 # Data from http://www.ecad.eu/dailydata/predefinedseries.php

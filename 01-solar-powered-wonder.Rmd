@@ -10,7 +10,9 @@ carbon dioxide + water --sunlight--> carbohydrates + oxygen
 
 Which indeed might help you conceptualize photosynthesis. But this reaction does not illustrate what a complex and sophisticated process photosynthesis actually is. Photosynthesis is an intricated biochemical process that requires coordination of hundreds of biochemical reaction in an environment specifically designed (ehm... evolved) to host them: the plant leaf ^[Actually, this is imprecise. For our aim we will restrict our attention to the plant leaf, but photosynthesis is not limited to leaves and does not depend on them. A big portion of photosynthesis on Earth is carried out by algae and bacteria.].
 
-Leaves intercept sunlight, manage gas exchange between the plant and the environment and bring water and nutrients to the photosynthetic apparatus. Almost any Leaf cell contains a complete photosynthetic apparatus, or many of them and is capable to run photosynthesis rather autonomously, which means that it can build all the component necessary to run the photosynthetic machinery and coordinate them.
+Leaves intercept sunlight, manage gas exchange between the plant and the environment and bring water and nutrients to the photosynthetic apparatus, which is contained inside the cells of the leaf.
+
+Almost any Leaf cell contains a complete photosynthetic apparatus, or many of them, and is capable to run photosynthesis rather autonomously. Which means that every leaf cell is a small factory that can build all the component necessary to run the photosynthetic machinery and also to assemble coordinate and run them.
 
 ```
 here image of leaf section and leaf cells?
@@ -18,4 +20,4 @@ here image of leaf section and leaf cells?
 
 You will forgive me if I do not explain in detail the component of the photosynthetic machinery or their functioning. In brief, those components intercept light and use it to oxydize water and to build electrochemical potential that will be used to fuel another series of biochemical reactions that convert carbon dioxyde into sugar. If you want to explore this process in detail, I can suggest [this wikibook on biology](https://en.wikibooks.org/wiki/Biology%2C_Answering_the_Big_Questions_of_Life/Photosynthesis) or a series of videos lessons from [MIT](https://www.youtube.com/user/MIT/search?query=photosynthesis) and [Khan academy](https://www.khanacademy.org/science/biology/photosynthesis-in-plants).
 
-Besides chatching a glimpse of the complexity of phothosynthesis, we are interested in one of its other aspects: **while the main concept of photosynthesis and most of its component are the same in all plants, every plant species adapts those components and finely tunes its photosynthetic apparatus to its needs**. We are going to investigate this adaptation and fine tuning in detail.
+Besides chatching a glimpse of the complexity of phothosynthesis, we are interested in one of its other aspects: its adaptation. While the main concept of photosynthesis and most of its component are the same in all plants, every plant species adapts those components and finely tunes its photosynthetic apparatus to its needs. We are going to investigate this adaptation and fine tuning of photosynthesis in detail.
