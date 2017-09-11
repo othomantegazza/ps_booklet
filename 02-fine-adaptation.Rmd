@@ -71,7 +71,7 @@ To thrive, a plant must manage two different and connected aspects of adaptation
 
 - Every plant species must adapt and finely tune its photosynthetic components stably to have them performing best at the range of environmental condition that it is likely to encounter. Namely the climate or microclimate under which that species evolved.
 
-```{r, echo = FALSE, fig.cap = "World climate area. Source: [Wikipedia](https://en.wikipedia.org/wiki/Climate#/media/File:ClimateMap_World.png)"}
+```{r, echo = FALSE, fig.cap = "World climate area. Source: [Wikipedia](https://en.wikipedia.org/wiki/Climate#/media/File:ClimateMap_World.png). <br> <span style=font-size:0.8em> Attribution: By Waitak at en.wikipedia Later version(s) were uploaded by Splette at en.wikipedia. [GFDL](http://www.gnu.org/copyleft/fdl.html) or [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0/) </span>"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/d/df/ClimateMap_World.png")
 ```
 
