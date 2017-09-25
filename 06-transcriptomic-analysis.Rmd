@@ -1,33 +1,49 @@
-# A cell like a factory - transcriptomic analysis
+# Transcriptomic Analysis - A Cell Like a Factory
 
-To understand what is transcriptomic analysis, and how this analysis helps us to dig into the genetic of the optimization of photosynthesis, we must first understand what in biology and in genetic what a transcript is.
+[Transcriptomic analysis](https://en.wikipedia.org/wiki/RNA-Seq) is a widely used molecular genetics method.
 
-A transcript is a temporary copy of a DNA portion (gene) that is free to float around the cells and that brings the genetic information where needed (to produce protein). A definition that is pretty useles if you are not a biologist.
+## Molecular genetics
 
-So let's help ourself with the our engine analogy. If photosynthesis is like an engine with many small complicated components, the cell is the factory that produces this engine (from scratch) and many others.
+We need molecular genetics methods to study how living organisms build, assemble and coordinate their molecular components. Those methods are often complicated, unexpected and unintuitive, because those methods are tricks that scientists have invented to study objects and processes that are too small to be seen both at the naked eyes and also at the most powerful microscopes. With molecular genetics we can study the photosynthetic molecular machineries, and learn how those machineries are build from genetic information hidden in genes and DNA.
 
-If we imagine a leaf cell as a factory, this factory can produce many machineries. To produce all those goods, the cell/factory in a central library, it keeps stored all the projects for the various components and the instruction about when / why / how to assemble them. One project is a gene, this central library is the genome.
+## Accessing genetic information
 
-Imagine that you have a factory and projects for many higly specialized machineries, and at a given moment you have to produce a given number of certain machine. First you might want to make copies of the projects and give them to the workers, so that they can study them. It make sense to distribute temporary copies, instead of having everybody to work on the same precious copy that you keep in the library. For many reasons:
+One trick that we can use to access genetic information is transcriptomic analysis. To understand what is transcriptomic analysis, and how this analysis helps us studying the optimization of photosynthesis, we must first understand what in biology and in genetic is a [transcript](https://en.wikipedia.org/wiki/Messenger_RNA).
 
-- They main copy is precious, it must to be carefully preserved,
-- If you make copies, many people can easily read them, instead of clogging the main copy,
-- those copies are temporary, so workers can take notes on them, rip out useless pages, make small modifications on the run, get them dirty and in the end when they are ruined, throw them away.
+### The transcript, a temporary copy of a gene
 
-Those copies are the transcripts.
+A transcript is a temporary copy of a DNA portion (a.k.a. gene) that is free to float around the cell and that brings the genetic information where needed, to produce proteins; a definition that is rather useless if you are not a biologist.
 
-So, every cell of a living organism can be seen as a factory, and it does exactly this: it has a genome, made of DNA, where it stores all the projects and instructions and information. And when it needs to produce one of those machineries, it makes copies of the projects and instructions for all the components of those machinery and distributes them around the cell, so that those components can be built and assembled. The number of the copies that are distributed are roughly proportional to the numbers of models of that machinery that have to be produced. Those copies are made of RNA and are called transcripts.
+Let's get help from our engine analogy.
 
-Now, cells are really small, and their machineries are even smaller, we can not walk around a cell and see what it is doing, what it is producing, like we would do with a factory. We can extract the machineries and try to study them, but they are even smaller, when we touch them they break, they fall apart, they change their behaviour, and they are not very easy to observe anyway, studying them is not that easy also.
+If photosynthesis is like an engine with many small complicated components, the cell is the factory that produces this engine and all of its components. (and that also uses this same engine to produce sugar that the same cell will use to grow and to produce more engines, in a rather autarkic approximation of molecular biology).
 
-We can access the main repository of the project, the genome, and we can tell all the components that a cell could produce, but reading the genome is hard, which component is being produced at a given moment, for example in the leaf, in a photosynthetic cell? At what rate?
+We can imagine the plant cell as a factory, this factory can produce many components for different kinds of engines. To produce all those goods, the cell/factory needs a central library, where it can store all the projects for the various components and the instruction about when / why / how to assemble them. In the plant cell, and also in any other cell, every project is a gene, the central library is the genome.
 
-Imagine we could access and read the transcript, all that temporary copies of projects and instructions that go around the cell and that workers use to produce the components of the machineries. If we could extract and read that, we would have an idea of what the cell is producing at a given moment, and at what rate.
+Let's suppose that you have a factory, and also  projects for many highly specialized machineries. At a given moment the market requires you to to produce a given number of a certain machine. First, you might want to make copies of the project for that machineries and give them to the workers, so that they can study them. It make sense to distribute temporary copies of the project, instead of making everybody work on the same, single, precious copy that you keep in the library. For many reasons:
 
-Indeed we can do this, and we call it transcriptomic analyisis, where the transcriptome is the set of all the transcripts that are in a cell in a given model.
+- The main copy of the project is precious, it must be carefully preserved.
+- If you make copies, many people can easily read them, instead of everybody squeezing on the main copy.
+- Those copies are temporary, so workers can write notes on them, rip useless pages, modify them on the run, get them dirty and in the end, when they are ruined, throw them away.
 
-You might wonder, why not look directly at the genome, where the projects (genes) for all the machineries and all the information to run the factory are stored? One answer could be that in the genome we could find the projects, but we would not know which one is active at a given moment, and how much it is active.
+The living cells do exactly the same thing: the [genes](https://en.wikipedia.org/wiki/Gene) are projects and their temporary copies are called transcripts. The transcripts are temporary copies that get [transcribed](https://en.wikipedia.org/wiki/Transcription_(biology)) from genes.
 
-But the true answer is that it is complicated. When we study molecular machineries and the molecular flux of information we use many tricks to access and study those incredibly small components. And still today we have a lot of limitations. So, often, in molecular genetics, what looks like the most logical way to answer a question is often not the most practical.
+Summing up, every cell can be seen as a factory: it has a genome, made of DNA, where it stores all the projects and instructions and information. When the cell needs to produce a machinery from those projects, it copies the projects and instructions of all its components and distributes them around the cell, so that those components can be built and assembled. The number of the copies that are distributed are roughly proportional to the number of models of that machinery that have to be produced. Those copies are made of RNA and are called transcripts.
 
-Transcriptomic analysis is a good and practical way to learn what a cell is doing at a given moment. This technology was established around 20 years ago and was strongly refined around ten years ago with next generation sequencing. Many people use it around the world to answer the most different biological question and this is what we are using to learn about photosynthesis fine tuning. 
+### Get the transcripts
+
+Now, cells are really small, and their molecular machineries are even smaller, we can not walk around a cell and see what is going on, what it is producing, like we would do in a factory. We can extract the machineries and try to study them, but they are even smaller, when we touch them they break, they fall apart, they change their behaviour.
+
+We can access the library that stores the project: the genome, and we can learn all the components that a cell could produce, but reading and decyphering the genome is hard, which component is being produced at a given moment, for example in the leaf, in a photosynthetic cell? At what rate?
+
+Imagine we could access and read the transcript, all that temporary copies of projects and instructions that go around the cell and that workers use to produce the components of the machineries. If we could extract and read all the transcripts, we would have an idea of what the cell is producing at a given moment, and at what rate.
+
+Indeed we can do this, and we call it transcriptomic analyisis, where the transcriptome is the set of all the transcripts that are in a cell in a given moment.
+
+## Why transcriptomic analysis?
+
+You might wonder, why are we not looking directly at the genome, where the projects (genes) for all the machineries and all the information to run the factory are stored? One answer could be that in the genome we could find all the projects, but it is hard to learn which project is being actively produced at a given moment, and how much of it.
+
+But the true answer is that it is complicated. When we study molecular machineries and the molecular flux of information we use many tricks to decypher the information stored in the genome and to study those incredibly small components. And still today we have a lot of limitations. So, often, in molecular genetics, what looks like the most logical and direct way to answer a question is often not the most practical.
+
+Transcriptomic analysis is a good and practical way to learn what a cell is doing at a given moment. This technology was established around 20 years ago and was strongly refined around ten years ago with [next generation sequencing](https://en.wikipedia.org/wiki/DNA_sequencing#Next-generation_methods). Many people use it around the world to answer the most different biological question and this is what we are using to learn about photosynthesis fine tuning.
