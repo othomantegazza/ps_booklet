@@ -1,0 +1,5 @@
+# Note {-}
+
+This booklet on photosynthesis is under development; I am still writing and revising it. 
+
+Please if you have any suggestion on how to improve it, send me an email at othomanteotho@gmail.com or send me a pull request on Github.
