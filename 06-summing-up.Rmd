@@ -1,25 +1,14 @@
-# Summing Up
+# Conclusions
 
-So hereby I let you peek into a small part of what is photosynthesis and into one of the methods that we use for studying it.
+In here, I let you reader have a peek into an aspect of photosynthesis -- how it is adapted to hot weather -- and into the daily struggles that we scientists face to study it.
 
-You might have still many questions:
+In [CEPLAS](https://ceplas.eu/), we have been focusing on C4 photosynthesis. We have been applying transcriptomic analysis to understand how the leaves of C4 plants that host the mechanism to concentrate carbon dioxide, are built and developed. We seek to understand, not the biochemical mechanism that accumulate carbon dioxide -- those have been already described -- but how the inner structure of the leaves grow and develop so that they can host this special kind of photosynthesis that allows plants to thrive in hot weather. And especially, we seek to understand how the information on how to build those inner structure of the leaves is encoded in genes.
 
-- What photosynthesis actually do exactly? How?
-- Which living organism do photosynthesis?
-- I can't believe that your methods are limited to transcriptomic analysis? What else can you do to study photosynthesis?
-- I could read the sequence of a transcript, but I did not understand exactly what was written in it. How can you understand what is written in a gene or in a transcript? How can you decode this kind of information?
-- So, living organisms are like factory? Or not?
+You might have still many questions that I have left unanswered. Off the top of my head I would ask:
 
-To the question what else can you do, the answer is: much more. I will not answer to the other questions here. I hope that I interested you to the topic and, in case, you are welcome further explore molecular genetics and photosynthesis yourself.
+- How does photosynthesis work exactly,
+- Are your methods limited to transcriptomic analysis?
+- How can you decode transcripts and genes
+- When does the analogy between the cell and a factory breaks? Does it break ar a certain point?
 
-You might find these resources helpful:
-
-```
-online resources?
-```
-
-Together we had a glimpse of photosinthesis, a phantastic molecular machinery.
-
-We also have learned about how much photosynthesis and other molecular machinery in the cell depend on genetic information. We have also learned a little bit about how we can access genetic information through transcritomic.
-
-I hope that this 
+There is much mere that can be done and said. Questions are left open on purpose. What I hope to achieve with these few pages is to interest you in the processes that make life possible at the molecular level and on the methods that scientists have invented to study them.
