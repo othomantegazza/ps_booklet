@@ -1,5 +1,5 @@
 ---
-title: "What the plant does?"
+title: "What does the plant do"
 subtitle: "A story of photosynthesis and transcriptomes"
 author: "Otho Mantegazza"
 date: "`r Sys.Date()`"
@@ -11,6 +11,7 @@ documentclass: book
 description: "A Planter's Punch that quickly got out of hand"
 cover-image: images/JS_sargent_small.jpg
 github-repo: othomantegazza/ps_booklet
+url: https\://bookdown.org/otho/ps_booklet
 ---
 
 # Preface {-}
