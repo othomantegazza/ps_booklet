@@ -10,6 +10,7 @@ output:
 documentclass: book
 description: "A Planter's Punch that quickly got out of hand"
 cover-image: images/JS_sargent_small.jpg
+github-repo: othomantegazza/ps_booklet
 ---
 
 # Preface {-}
