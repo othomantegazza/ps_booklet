@@ -22,6 +22,10 @@ If photosynthesis is like an engine with many small complicated components, the 
 
 We can imagine the plant cell as a factory, this factory can produce many components for different kinds of engines. To produce all those goods, the cell/factory needs a central library, where it can store all the projects for the various components and the instruction about when / why / how to assemble them. In the plant cell, and also in any other kind of cells, every project is a gene, the central library is the genome.
 
+```
+Image: Transcription
+```
+
 Let's suppose that you have a factory, and also  projects for many highly specialized machineries. At a given moment the market requires you to to produce a given number of a certain machine. First, you might want to make copies of the project for that machine and give that copies to the workers, so that they can study them. For many reasons, it make sense to distribute temporary copies of the project, instead of making everybody work on the same, single, precious copy that you keep in the library:
 
 - The main copy of the project is precious, it must be carefully preserved.
