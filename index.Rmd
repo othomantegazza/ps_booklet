@@ -1,5 +1,5 @@
 ---
-title: "What does the plant do"
+title: "What does the plant do?"
 subtitle: "A story of photosynthesis and transcriptomes"
 author: "Otho Mantegazza"
 date: "`r Sys.Date()`"
@@ -12,6 +12,7 @@ description: "A Planter's Punch that quickly got out of hand"
 cover-image: images/JS_sargent_small.jpg
 github-repo: othomantegazza/ps_booklet
 url: https\://bookdown.org/otho/ps_booklet
+site: bookdown::bookdown_site
 ---
 
 # Preface {-}
@@ -20,7 +21,7 @@ Plants collect energy from sunlight and use it to produce fruits that we eat, fi
 
 This process is fundamental for our life on Earth, and it has been [intensively studied for centuries](https://en.wikipedia.org/wiki/Photosynthesis#Discovery) by scientists. We, scientists at [CEPLAS](http://ceplas.eu), are also contributing.
 
-Here I'll give you a glimpse of our scientific research. After a very short introduction to photosynthesis, I'll explain to you one its details of and one method that we are using to investigate it.
+Here I'll give you a glimpse of our scientific research. After a very short introduction to photosynthesis, I'll explain to you one of its details and one of the methods that we are using to investigate it.
 
 The method is called transcriptomic analysis and we are using it to investigate a special adaptation of photosynthesis for warm and dry weather.
 

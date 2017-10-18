@@ -2,4 +2,6 @@
 
 This booklet on photosynthesis is under development; I am still writing and revising it. 
 
-Please if you have any suggestion on how to improve it, send me an email at othomanteotho@gmail.com or send me a pull request on Github.
+Please if you have any suggestion on how to improve it, send me an email at othomanteotho@gmail.com or send me a pull request on [Github](https://github.com/othomantegazza/ps_booklet).
+
+Opinions expressed here are my own and they are not necessarily supported by CEPLAS, or by any university and funding body.

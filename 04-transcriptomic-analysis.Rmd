@@ -4,9 +4,9 @@
 
 ## Molecular genetics
 
-To study how living organisms use information hidden in their genes to build, assemble and coordinate their molecular components, we use molecular genetics methods. Those methods are often complicated, unexpected and unintuitive, because those methods are tricks that scientists have invented to study objects and processes that are too small to be seen both at the naked eyes and also at the most powerful microscopes.
+To study how living organisms use information hidden in their genes to build, assemble and coordinate their molecular components, we use molecular genetics methods. Those methods are often complicated, unexpected and unintuitive, because they are tricks that scientists have invented to study objects and processes that are too small to be seen both at the naked eyes and also at the most powerful microscopes.
 
-With molecular genetics we can study the photosynthetic molecular machineries, and learn how those machineries are build from genetic information hidden in genes and DNA.
+With molecular genetics, we can study the photosynthetic molecular machineries, and learn how those machineries are built from genetic information hidden in genes and DNA.
 
 ## Accessing genetic information
 
@@ -26,7 +26,7 @@ We can imagine the plant cell as a factory, this factory can produce many compon
 Image: Transcription
 ```
 
-Let's suppose that you have a factory, and also  projects for many highly specialized machineries. At a given moment the market requires you to to produce a given number of a certain machine. First, you might want to make copies of the project for that machine and give that copies to the workers, so that they can study them. For many reasons, it make sense to distribute temporary copies of the project, instead of making everybody work on the same, single, precious copy that you keep in the library:
+Let's suppose that you have a factory, and also  projects for many highly specialized machineries. At a given moment, the market requires you to produce a given number of a certain machine. First, you might want to make copies of the project for that machine and give that copies to the workers, so that they can study them. For many reasons, it makes sense to distribute temporary copies of the project, instead of making everybody work on the same, single, precious copy that you keep in the library:
 
 - The main copy of the project is precious, it must be carefully preserved.
 - If you make copies, many people can easily read them, instead of everybody squeezing on the main copy.
@@ -34,7 +34,7 @@ Let's suppose that you have a factory, and also  projects for many highly specia
 
 The living cells do exactly the same thing: the [genes](https://en.wikipedia.org/wiki/Gene) are projects and their temporary copies are called transcripts. The transcripts are temporary copies that get [transcribed](https://en.wikipedia.org/wiki/Transcription_(biology)) from genes.
 
-Summing up, every cell can be seen as a factory: it has a genome, made of DNA, where it stores all the projects and instructions and information. When the cell needs to produce a molecular machinery, the projects for the component of that molecular machinery are copied from the genome and distributed within the cell itself, so that that machinery can be built and assembled. The number of the copies that circulate around a cell are roughly proportional to the number of units of that machinery that must to be produced. Those copies are made of RNA and are called transcripts.
+Summing up, every cell can be seen as a factory: it has a genome, made of DNA, where it stores all the projects, instructions and information. When the cell needs to produce a molecular machinery, the projects for the component of that molecular machinery are copied from the genome and distributed within the cell itself, so that that machinery can be built and assembled. The number of the copies that circulate around a cell are roughly proportional to the number of units of that machinery that must be produced. Those copies are made of RNA and are called transcripts.
 
 ### Get the transcripts
 
@@ -52,4 +52,4 @@ You might wonder, why are we not looking directly at the genome, where the proje
 
 But the true answer is that it is complicated. When we study molecular machineries and the molecular flux of information we use many tricks to decypher the information stored in the genome and to study those incredibly small components. And still today we have a lot of limitations. So, often, in molecular genetics, what looks like the most logical and direct way to answer a question is not the most practical.
 
-Transcriptomic analysis is a good and practical way to learn what a cell is doing at a given moment. This technology was established around 20 years ago and was strongly refined around ten years ago with [next generation sequencing](https://en.wikipedia.org/wiki/DNA_sequencing#Next-generation_methods). Many people use it around the world to answer the most different biological question and this is what we are using to learn about photosynthesis fine tuning.
+Transcriptomic analysis is a good and practical way to learn what a cell is doing at a given moment. This technology was established around 20 years ago and was strongly refined around ten years ago with [next generation sequencing](https://en.wikipedia.org/wiki/DNA_sequencing#Next-generation_methods). Many people use it around the world to answer the most different biological questions and this is what we are using to learn about photosynthesis fine tuning.
