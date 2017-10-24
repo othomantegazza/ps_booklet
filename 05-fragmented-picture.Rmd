@@ -1,6 +1,6 @@
 # Fragments of Transcripts
 
-So, we look into how C4 plants build their mechanism to concentrate carbon dioxide in the leaves, and we do this by transcriptomic analysis. And I would like to discuss with you one last detail of how we perform this analysis.
+We explore how C4 plants build their mechanism to concentrate carbon dioxide in the leaves, and we do this by transcriptomic analysis. And I would like to discuss with you one last detail of how we perform this analysis.
 
 We grind the leaves, extract the transcripts, read them (technically, sequence them) identify them, quantify how many of any different kind of transcript is contained in the leaf cells; then we have rough idea of which kind of molecular machinery that cell is producing, and therefore, what that cell is doing. This sounds already rather complicated, but it is not enough -- [before we read all the transcript, we fragment them](https://en.wikipedia.org/wiki/RNA-Seq), or, in other words, we tear them into pieces. Imagine that you enter in a library and you want to read all the books, but before you do it, you tear all the books into fragments, then you read every fragment and you try to reconstruct the meaning of each book by matching overlapping fragment with each other until you have meaningful paragraphs, chapters and books again. More work that seems at best illogical, if you can read a full transcript, why cut it in pieces before? The reason is again technical, with today's technology it is more efficient to read through a short fragment of transcript rather than a long full one.
 

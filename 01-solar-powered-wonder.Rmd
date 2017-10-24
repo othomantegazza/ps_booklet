@@ -4,9 +4,11 @@ Plants are solar powered wonders. They harvest energy from (sun)light, carbon di
 
 Photosynthesis can be described by this simple chemical reaction:
 
+
+```{r, echo = FALSE, fig.cap = "photosynthesis"}
+knitr::include_graphics("images/ps_reaction_6.jpeg")
 ```
-carbon dioxide + water --sunlight--> carbohydrates + oxygen
-```
+
 
 Which indeed might help you conceptualize photosynthesis. But this reaction does not illustrate what a complex and sophisticated process photosynthesis actually is. Photosynthesis is an intricate biochemical process that requires coordination of hundreds of biochemical reaction in an environment specifically designed (ehm... evolved) to host them: the plant leaf ^[Actually, this is imprecise. For our aim we will restrict our attention to the plant leaf, but photosynthesis is not limited to leaves and does not depend on them. A big portion of photosynthesis on Earth is carried out by algae and bacteria.].
 
