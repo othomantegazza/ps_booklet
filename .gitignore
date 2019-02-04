@@ -1,0 +1,8 @@
+.Rhistory
+_book*
+.Rproj.user*
+*.Rproj
+.Rproj.user
+data/*
+rsconnect/*
+images/*

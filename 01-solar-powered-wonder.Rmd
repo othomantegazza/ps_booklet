@@ -16,8 +16,8 @@ Leaves intercept sunlight, manage gas exchange between the plant and the environ
 
 Almost any leaf cell contains a complete photosynthetic apparatus, or many of them, and is capable to run photosynthesis rather autonomously. Which means that every leaf cell is a small factory that can build all the component necessary to run the photosynthetic machinery and also to assemble, coordinate and run them.
 
-```
-here image of leaf section and leaf cells?
+```{r, echo = FALSE, fig.cap = "Solar powered wonders."}
+knitr::include_graphics("images/leaves_small.jpeg")
 ```
 
 You will forgive me if I do not explain in detail the component of the photosynthetic machinery or their functioning. In brief, those components intercept light and use it to oxidize water and to build electrochemical potential that will be used to fuel another series of biochemical reactions that convert carbon dioxide into sugar. If you want to explore this process in detail, I can suggest [this wikibook on biology](https://en.wikibooks.org/wiki/Biology%2C_Answering_the_Big_Questions_of_Life/Photosynthesis) or a series of videos lessons from [MIT](https://www.youtube.com/user/MIT/search?query=photosynthesis) and [Khan academy](https://www.khanacademy.org/science/biology/photosynthesis-in-plants).

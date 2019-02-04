@@ -4,8 +4,8 @@ We explore how C4 plants build their mechanism to concentrate carbon dioxide in 
 
 We grind the leaves, extract the transcripts, read them (technically, sequence them) identify them, quantify how many of any different kind of transcript is contained in the leaf cells; then we have rough idea of which kind of molecular machinery that cell is producing, and therefore, what that cell is doing. This sounds already rather complicated, but it is not enough -- [before we read all the transcript, we fragment them](https://en.wikipedia.org/wiki/RNA-Seq), or, in other words, we tear them into pieces. Imagine that you enter in a library and you want to read all the books, but before you do it, you tear all the books into fragments, then you read every fragment and you try to reconstruct the meaning of each book by matching overlapping fragment with each other until you have meaningful paragraphs, chapters and books again. More work that seems at best illogical, if you can read a full transcript, why cut it in pieces before? The reason is again technical, with today's technology it is more efficient to read through a short fragment of transcript rather than a long full one.
 
-```
-image: assembled transcript
+```{r, echo = FALSE, fig.cap = "Reads of fragmeneted transcripts mapped and assembled on a reference. These mapping are visualized with the R package [Gviz](https://bioconductor.org/packages/release/bioc/html/Gviz.html), which stores also the data used for this example."}
+knitr::include_graphics("images/mreads_gviz.svg")
 ```
 
 ## Computers help
@@ -14,6 +14,3 @@ Of course we don't read and reassemble fragmented transcripts by hand, computers
 
 I have been talking about transcripts as temporary copies of projects and books. They actually long molecules of RNA that can be represented as strings of code in 4 characters. Such as DNA and genes, they are a smart system that the cell uses to encode information -- for those who can read it.
 
-```
-Example with sequence of RUBISCO and mapping?
-```

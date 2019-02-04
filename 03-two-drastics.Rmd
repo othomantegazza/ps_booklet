@@ -6,14 +6,14 @@ Every plant species has adapted photosynthesis to its needs with small modificat
 
 Hot and dry weather is very hostile to photosynthesis. Even if this might look like an obvious effect, understanding why hot weather is hostile to photosynthesis might require a technical and unintuitive explanation. Everything starts with [Rubisco](https://en.wikipedia.org/wiki/RuBisCO). The Rubisco enzyme grabs carbon dioxide from the atmosphere and incorporates it into sugars. Unfortunately, this enzyme is prone to mistake oxygen for carbon dioxide. [When Rubisco incorporate oxygen instead of carbon dioxide into sugars](https://en.wikipedia.org/wiki/Photorespiration) it uses energy to produce waste and useless molecules, which must be recycled spending additional energy. The hotter the weather, the more likely is Rubisco to mistake oxygen for carbon dioxide and thus to waste precious time and energy. In most plants the losses caused by mistaking oxygen for carbon dioxide neutralise the gains from photosynthesis -- sometimes in temperatures as low as 30°C -- making photosynthesis almost useless in hot weather.
 
-```
-Image: rubisco / photorespiration
+```{r, echo = FALSE, fig.cap = "A model of Rubisco, the key photosynthetic enzyme. Source: [Wikimedia](https://commons.wikimedia.org/wiki/File:Rubisco.png). . <br> <span style=font-size:0.8em> Attribution: ARP at English Wikipedia [Public domain], via Wikimedia Commons </span>"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/7/74/Rubisco.png")
 ```
 
 C4 and CAM plants, have invented rather imaginative ways to boost photosynthesis in hot weather. Examples of [C4 plants](https://en.wikipedia.org/wiki/C4_carbon_fixation) are Maize, Sugar Cane, Millet; known [CAM plants](https://en.wikipedia.org/wiki/Crassulacean_acid_metabolism) are all the succulent plants, such as Pineapple, Agave, Aloe and the funny looking Opuntia.
 
-```
-panel: C4 and CAM plants
+```{r, echo = FALSE, fig.cap = "Experimental fields of millet, an important C4 crop, in Montpellier, France."}
+knitr::include_graphics("images/millet2-small.jpeg")
 ```
 
 C4 plants boost photosynthesis by building a true molecular pump that concentrate carbon dioxide inside the inner layers of the leaf, so that this can be more easily converted into carbohydrate. CAM plants, instead, open pores and assimilate carbon dioxide from the atmosphere only at night, a strategy that at once allows to enrich carbon dioxide and to control water losses.
