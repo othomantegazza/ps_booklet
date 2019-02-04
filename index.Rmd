@@ -17,9 +17,13 @@ site: bookdown::bookdown_site
 
 # Preface {-}
 
+I wrote this booklet a couple of years ago, while I was working at [CEPLAS](http://ceplas.eu).
+
+--
+
 Plants collect energy from sunlight and use it to produce fruits that we eat, fibers that we wear and much, much more; in a process called photosynthesis.
 
-This process is fundamental for our life on Earth, and it has been [intensively studied for centuries](https://en.wikipedia.org/wiki/Photosynthesis#Discovery) by scientists. We, scientists at [CEPLAS](http://ceplas.eu), are also contributing.
+This process is fundamental for our life on Earth, and it has been [intensively studied for centuries](https://en.wikipedia.org/wiki/Photosynthesis#Discovery) by scientists. Scientists like me, like us.
 
 Here I'll give you a glimpse of our scientific research. After a very short introduction to photosynthesis, I'll explain to you one of its details and one of the methods that we are using to investigate it.
 
