@@ -1,8 +1,8 @@
 # Conclusions
 
-In here, I let you reader have a peek into an aspect of photosynthesis -- how it is adapted to hot weather -- and into the daily struggles that we scientists face to study it.
+In here, I let you, reader, have a peek into an aspect of photosynthesis -- how it is adapted to hot weather -- and into the daily struggles that we scientists face to study it.
 
-In [CEPLAS](https://ceplas.eu/), we have been focusing on C4 photosynthesis. We have been applying transcriptomic analysis to understand how the leaves of C4 plants that host the mechanism to concentrate carbon dioxide, are built and developed. We seek to understand, not the biochemical mechanism that accumulate carbon dioxide -- those have been already described -- but how the inner structure of the leaves grow and develop so that they can host this special kind of photosynthesis that allows plants to thrive in hot weather. And especially, we seek to understand how the information on how to build those inner structures of the leaves is encoded in genes.
+While I was at [CEPLAS](https://ceplas.eu/), I have been focusing on C4 photosynthesis, a topic that scientists there have been studying for a long time and are very experienced about. We have been applying transcriptomic analysis to understand how the leaves of C4 plants that host the mechanism to concentrate carbon dioxide, are built and developed. We seek to understand, not the biochemical mechanism that accumulate carbon dioxide -- those have been already described -- but how the inner structure of the leaves grow and develop so that they can host this special kind of photosynthesis that allows plants to thrive in hot weather. And especially, we seek to understand how the information on how to build those inner structures of the leaves is encoded in genes.
 
 You might have still many questions that I have left unanswered. Off the top of my head I would ask:
 
